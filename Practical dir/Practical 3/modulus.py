@@ -29,4 +29,9 @@ def moduloFunc(numerator, denominator):
     else:
         return "ERROR 404"
 
-print(moduloFunc(7.4, 5.0))
+print(moduloFunc(7.4, 5.0))  #for float value
+print(moduloFunc(7,5))       #for integer values 
+print(moduloFunc(7,7))      #when numerator and denominator are same 
+print(moduloFunc(3,7))      #when numerator is less than denominator  
+print(moduloFunc(5,0))	    #when denominator==0 and numerator==any number
+

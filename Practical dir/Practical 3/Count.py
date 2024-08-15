@@ -21,6 +21,6 @@ def CountFunction(Sub_String, Main_String, isOverlappingAllowed):
 
     return count
 
-print(CountFunction('gg', 'sgggggs', True))  # Example with overlapping allowed
-print(CountFunction('gg', 'sgggggs', False)) # Example without overlapping
-print(CountFunction(5, 'sgggggs', True))     # Example with wrong type
+print(CountFunction('gg', 'sgggggs', True))     #when overlapping is allowed	
+print(CountFunction('gg', 'sgggggs', False))   #When Overlappping not allowed
+print(CountFunction(5, 'sgggggs', True))      #wrong data 
