@@ -90,6 +90,9 @@ def alternative_chance(num, board, size):
         else:
             print("Invalid format! Please enter in the format: row,col.")
 
+
+
+#---------------------------------Space to Call functions----------------------------------------
 size = int(input("Enter the Size Of Tic-Tac-Toe: "))
 board = initialize(size)
 display_Layout(board)
